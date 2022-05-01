@@ -25,7 +25,7 @@ rem -------- Run the actual benchmarks.
 rem Set: blitz
 cls
 echo [1/36] - NFL Blitz (blitz)
-echo NFL Blitz,blitz >> output.csv
+echo NFL Blitz,blitz > output.csv
 <nul set /p temp=1,>> output.csv
 mame.exe blitz -cfg_directory cfg-bench -nvram_directory nvram-bench -noplugins -bench 90 >> output.csv
 <nul set /p temp=2,>> output.csv
@@ -285,7 +285,7 @@ mame.exe sfa2 -cfg_directory cfg-bench -nvram_directory nvram-bench -noplugins -
 rem Set: sfiii
 cls
 echo [27/36] - Street Fighter III (sfiii)
-echo Street Fighter III,sfiii > output.csv
+echo Street Fighter III,sfiii >> output.csv
 <nul set /p temp=1,>> output.csv
 mame.exe sfiii3 -cfg_directory cfg-bench -nvram_directory nvram-bench -noplugins -bench 90 >> output.csv
 <nul set /p temp=2,>> output.csv
