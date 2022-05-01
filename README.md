@@ -24,5 +24,6 @@
  4. Check `output.csv` (`notepad output.csv`)
 
 # FAQ
- Q1. There are no ROMs in this folder?!
- A1. That's not a question, and no, you have to provide all necessary ROM data and CHD images yourself.
+  1. There are no ROMs in this folder?!
+  
+  That's not a question, and no, you have to provide all necessary ROM data and CHD images yourself.
