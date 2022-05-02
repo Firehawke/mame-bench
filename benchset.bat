@@ -15,6 +15,7 @@ rem -------- Generate needed NVRAM from INP files.
 cls
 mame.exe crusnusa -cfg_directory cfg-bench -nvram_directory nvram-bench -input_directory inp-bench -fs 10 -noplugins -w -nothrottle -pb crusnusa-nvram -exit_after_playback
 mame.exe gradius4 -cfg_directory cfg-bench -nvram_directory nvram-bench -input_directory inp-bench -fs 10 -noplugins -w -nothrottle -pb gradius4-nvram -exit_after_playback
+mame.exe mk4 -cfg_directory cfg-bench -nvram_directory nvram-bench -input_directory inp-bench -fs 10 -noplugins -w -nothrottle -pb mk4-nvram -exit_after_playback
 mame.exe robotron -cfg_directory cfg-bench -nvram_directory nvram-bench -input_directory inp-bench -fs 10 -noplugins -w -nothrottle -pb robotron-nvram -exit_after_playback
 mame.exe scud -cfg_directory cfg-bench -nvram_directory nvram-bench -input_directory inp-bench -fs 10 -noplugins -w -nothrottle -pb scud-nvram -exit_after_playback
 mame.exe sfiii -cfg_directory cfg-bench -nvram_directory nvram-bench -input_directory inp-bench -fs 10 -noplugins -w -nothrottle -pb sfiii-nvram -exit_after_playback
